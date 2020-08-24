@@ -22,7 +22,7 @@ paths:
     post:
       tags:
         - pet
-      summary: POST /pet - Add a new pet to the store
+      summary: Add a new pet to the store (/pet)
       description: ''
       operationId: addPet
       consumes:
