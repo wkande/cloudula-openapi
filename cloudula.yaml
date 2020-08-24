@@ -29,7 +29,7 @@ paths:
             type: integer
             format: int32
         - name: api_key
-          in: header
+          in: body
           description: The API KEY assigned to your account. Please keep it secret.
           required: true
           schema:
