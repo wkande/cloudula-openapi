@@ -28,12 +28,6 @@ paths:
           schema:
             type: integer
             format: int32
-        - name: api_key
-          in: body
-          description: The API KEY assigned to your account. Please keep it secret.
-          required: true
-          schema:
-            type: string
       responses:
         '200':
           description: A paged array of pets
